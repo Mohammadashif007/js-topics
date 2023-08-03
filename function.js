@@ -43,3 +43,41 @@
 
 // const result = rectangle(105, 10);
 // console.log(result);
+
+
+// 5. Circle perimeter 
+
+// const circleToPerimeter = function(r){
+//     const perimeter = 2*3.14*r;
+//     return perimeter;
+// }
+
+// const result = parseFloat(circleToPerimeter(90).toFixed(2));
+// console.log(result);
+
+// 6. Reverse a number 
+
+// const reverseNumber = function(num){
+//     let reverse = 0;
+//     while(num != 0){
+//         reverse = reverse * 10;
+//         reverse = reverse + num % 10;
+//         num = Math.trunc(num/10);
+//     }
+//     return reverse;
+// }
+
+// const result = reverseNumber(123);
+// console.log(result);
+
+// function reverseNumber(num){
+//     let reverse = 0;
+//     while(num != 0){
+//         reverse = reverse * 10;
+//         reverse = reverse + num % 10;
+//         num = Math.trunc((num/10));
+//     }
+//     return reverse;
+// }
+
+// console.log(reverseNumber(123));
